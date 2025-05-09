@@ -8,8 +8,17 @@
 // - Retornar `"Errou! Tente novamente!"` se o palpite estiver incorreto.
 
 function adivinharNumero(max, palpite) {
-  // TODO: implementar função
+  let numero = Math.random(max)
+  if (numero == palpite) {
+    return "Acertou"
+  } else {
+    return "Errou"
+  }
 }
+
+
+
+adivinharNumero(10, 3)
 
 
 // NÃO REMOVA O CÓDIGO ABAIXO

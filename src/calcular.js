@@ -10,8 +10,10 @@
 // - Executar a operação correta e retornar o resultado;
 
 function calcular(num1, num2, operador) {
-  // TODO: implementar função
+
 }
+
+ca
 
 
 //NÃO REMOVA O CÓDIGO ABAIXO
